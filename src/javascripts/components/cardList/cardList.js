@@ -27,7 +27,7 @@ const cardListEvents = () => {
   });
 
   $('body').on('click', '.card', () => {
-    utilities.printToDom('color-list', '');
+    utilities.printToDom('planet-container', '');
     utilities.printToDom('single-color', 'this is a single item.  maybe we should call another component?');
   });
 };
